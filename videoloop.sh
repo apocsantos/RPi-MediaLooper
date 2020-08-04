@@ -9,7 +9,7 @@ fi
 # Variables
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-MEDIA_PATH=/media/usb
+MEDIA_PATH=/media/pi/KINGSTON
 AUDIO_OUTPUT=hdmi # hdmi or local
 
 # External config
@@ -18,7 +18,7 @@ if [ -f $MEDIA_PATH/config.txt ]; then
 fi
 
 # Variables
-MEDIA_PATH=/media/usb
+MEDIA_PATH=/media/pi/KINGSTON
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
